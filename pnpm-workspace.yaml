@@ -1,7 +1,9 @@
 allowBuilds:
   esbuild: true
   sharp: true
+  workerd: true
 minimumReleaseAgeExclude:
   - astro@7.1.2
+  - "@astrojs/cloudflare@14.1.4"
 packages:
   - "."
